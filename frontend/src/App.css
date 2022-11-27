@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+
+.title {
+  font-size: 30px;
+}
+
+.categories {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+}
+
+.singleCategory{
+  margin: 0px;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.dashboardContainer{
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+  border-radius: 2vmin;
+  background: rgb(199, 198, 198);
+}
+
+.dashboardUserInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.topRatedContainer {
+  display:flex;
+  justify-content: space-between;
+  overflow: scroll;
+}
+.giftGuideContainer {
+  display:flex; 
+  justify-content: space-around;
+}
+
+.productImage {
+  max-height: 336px;
+  max-width:  280px;
+  padding: 10px; 
+  margin:  20px  130px 20px 130px;
+}
+
+.rowTitle {
+  margin-top: 60px;
+}
